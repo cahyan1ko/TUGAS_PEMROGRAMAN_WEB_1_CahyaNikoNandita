@@ -89,6 +89,10 @@ nav ul li a:hover {
     cursor: pointer;
 }
 
+.col-1 a {
+    text-decoration: none;
+}
+
 .h1-mntr:hover{
     color: black;
 }
@@ -126,3 +130,59 @@ button:hover {
     color: #fff;
     background-color: #000;
 }
+
+/* tabel */
+
+.tabelMentor {
+    display: flex;
+  flex-direction: column; /* Change to 'row' for a horizontal layout */
+  align-items: center; /* Align items in the center horizontally */
+  margin-top: 5%;
+  /* height: ; */
+}
+
+table {
+    color: #fff;
+    flex: 1; /* Allow the table to grow and fill the available vertical space */
+    width: 50%;
+    border-collapse: collapse;
+    margin: 10px;
+  }
+  
+  th, td {
+    border: 1px solid white;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  /* Padding and spacing */
+  td {
+    padding: 15px;
+  }
+
+  /* pencarian */
+  .search-container {
+    padding-top: 100px;
+    width: 300px;
+    margin: 0 auto;
+  }
+  .form-group {
+    border-radius: 20%;
+    color: #fff;
+    margin-bottom: 10px;
+  }
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  .form-group input, .form-group textarea {
+    width: 100%;
+    padding: 5px;
+  }
+  .form-group select {
+    width: 100%;
+    padding: 5px;
+  }
+  .search-button {
+    padding: 10px 20px;
+  }

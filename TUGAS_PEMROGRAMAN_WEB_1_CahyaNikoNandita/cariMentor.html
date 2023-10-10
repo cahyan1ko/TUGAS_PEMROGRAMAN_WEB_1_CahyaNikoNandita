@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Tugas Pemrograman Web 1</title>
+        <link rel="stylesheet" href="css/style.css" />
+    </head>
+    <body>
+        <div class="container">
+            <div class="navbar">
+                <img src="images/logo.png" class="logo" />
+                <h3>Tinment</h3>
+                <nav>
+                    <ul>
+                        <li>
+                            <b><a href="index.html">HOME</a></b>
+                        </li>
+                        <li>
+                            <b
+                                ><a
+                                    href="findAMentor.html"
+                                    class="find-a-mentor"
+                                    >FIND A MENTOR</a
+                                ></b
+                            >
+                        </li>
+                        <li>
+                            <b
+                                ><a
+                                    href="https://www.instagram.com/cahyaaniko/"
+                                    target="_blank"
+                                    >INSTAGRAM</a
+                                ></b
+                            >
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+
+            <div class="search-container">
+                <form action="hasil_pencarian.php" method="get">
+                    <div class="form-group">
+                        <label for="mentor-search">Cari Mentor:</label>
+                        <input
+                            type="text"
+                            id="mentor-search"
+                            name="mentor-search"
+                            placeholder="Masukkan nama mentor..."
+                        />
+                    </div>
+
+                    <div class="form-group">
+                        <label for="category">Kategori:</label>
+                        <select id="category" name="category">
+                            <option value="semua">Semua Kategori</option>
+                            <option value="web-developer">Web Developer</option>
+                            <option value="data-analyst">Data Analyst</option>
+                            <option value="ui-ux-designers">
+                                UI/UX Designers
+                            </option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="additional-info">Informasi Tambahan:</label>
+                        <textarea
+                            id="additional-info"
+                            name="additional-info"
+                            placeholder="Masukkan informasi tambahan..."
+                            rows="4"
+                        ></textarea>
+                    </div>
+
+                    <div class="form-group">
+                        <button type="submit" class="search-button">
+                            Cari
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </body>
+</html>
